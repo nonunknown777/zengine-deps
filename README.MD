@@ -19,6 +19,8 @@ Welcome to the ZEngine Builder repository! ZEngine is a custom game engine built
 
 ## Getting Started
 
+You just need to do if either **Your OS isnt listed in the releases of the ZEngine repo** or **You want to contribute to the engine development**
+
 Follow these steps to clone the builder repository with its submodules:
 
 
@@ -29,9 +31,9 @@ Follow these steps to clone the builder repository with its submodules:
 
  git submodule update --init --recursive
 
- #execute your os file (linux example):
+ #execute the python script
 
- python ./build_linux.py
+ python ./build.py
 ```
 
 
@@ -39,9 +41,15 @@ Follow these steps to clone the builder repository with its submodules:
 
 - a folder called `place_inside_zengine` will be generated
 - copy all the content of this folder inside zengine folder
+- if you have any problems during the execution of the script make sure you meet the requirements of the library that has thrown the error
+
+
 
 Now you have the ZEngine repository with all its dependencies ready to go!
-
 Feel free to explore, modify, and have fun building awesome games with ZEngine. If you encounter any issues or have suggestions, don't hesitate to reach out.
 
 Happy coding! 🚀
+
+## Disclaimer
+
+The `build.py` was done in one day only, so its not very code organized is just to make the process easier to update / get code running
