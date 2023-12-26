@@ -2,6 +2,8 @@
 
 Welcome to the ZEngine Builder repository! ZEngine is a custom game engine built on top of the fantastic Raylib framework. This readme will guide you through setting up the project with its submodule dependencies.
 
+For ZEngine repository [CLICK HERE](https://github.com/nonunknown777/ZEngine)
+
 ## Submodules Dependencies
 
 1.  **Raylib - Base Game Framework**
@@ -16,6 +18,12 @@ Welcome to the ZEngine Builder repository! ZEngine is a custom game engine built
     [GitHub Repository](https://github.com/raysan5/rres)
 6.  **RAudio - Raysan's Audio for Raylib**
     [GitHub Repository](https://github.com/raysan5/raudio)
+
+## Requirements
+
+- python 3.x
+- cmake 3.x
+- (you can try to build after installing above, but some libraries may require any extra stuff, if any error check the Repository of the target library building in your os)
 
 ## Getting Started
 
