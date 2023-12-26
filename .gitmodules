@@ -1,3 +1,18 @@
 [submodule "yaml-cpp"]
 	path = yaml-cpp
 	url = git@github.com:jbeder/yaml-cpp.git
+[submodule "PlayRho"]
+	path = PlayRho
+	url = git@github.com:louis-langholtz/PlayRho.git
+[submodule "JoltPhysics"]
+	path = JoltPhysics
+	url = git@github.com:jrouwe/JoltPhysics.git
+[submodule "raylib"]
+	path = raylib
+	url = git@github.com:raysan5/raylib.git
+[submodule "rres"]
+	path = rres
+	url = git@github.com:raysan5/rres.git
+[submodule "raudio"]
+	path = raudio
+	url = git@github.com:raysan5/raudio.git
